@@ -1,0 +1,53 @@
+
+#red_square {
+  background-color: red;
+}
+
+#purple_square {
+  background-color: purple;
+}
+
+#yellow_square {
+  background-color: yellow;
+}
+
+#blue_square {
+  background-color: blue;
+}
+
+#green_square {
+  background-color: green;
+}
+
+#black_square {
+  background-color: black;
+}
+
+.big-square {
+  height: 280px;
+  position: relative;
+  width: 280px;
+}
+
+.medium-square {
+  height: 140px;
+  position: absolute;
+  width: 140px;
+  top: 70px;
+  left:70px;
+}
+
+.small-square {
+  height:70px;
+  position: absolute;
+  width:70px;
+}
+
+/*MARGIN*/
+.mt-5{
+  margin-top: 5px;
+}
+
+.ml-20{
+  margin-top: 20px;
+}

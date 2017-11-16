@@ -1,0 +1,78 @@
+
+body {
+  background-color: lightgrey;
+}
+
+h1 {
+  color: purple;
+  text-align: center;
+}
+
+section {
+  background-color: #8CB27C;
+  left: 30%;
+  height: 250px;
+  position: relative;
+  width: 500px;
+}
+
+#circle {
+  border-radius: 50%;
+  height: 80px;
+  left: 40%;
+  position: absolute;
+  top: 30%;
+  width: 80px;
+}
+
+#first_balon {
+  float: right;
+  margin-top: 3%;
+}
+
+#left_goal {
+  border-left: none;
+}
+
+#right_goal {
+  border-right: none;
+  left: 89%;
+}
+
+#second_balon {
+  left: 48%;
+  position: absolute;
+  top: 20%;
+}
+
+#third_balon {
+  left: 85%;
+  position: absolute;
+  bottom: 30%;
+}
+
+#principal {
+  height: 200px;
+  left: 25px;
+  position: absolute;
+  top: 25px;
+  width: 450px;
+}
+
+.balon {
+  background-color: white;
+  border-radius: 50%;
+  height: 8px;
+  width: 8px;
+}
+
+.goal {
+  height: 100px;
+  position: absolute;
+  top: 25%;
+  width: 50px;
+}
+
+.white-border {
+  border: 1px solid white;
+}

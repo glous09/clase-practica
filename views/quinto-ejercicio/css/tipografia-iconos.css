@@ -1,0 +1,29 @@
+section {
+  display: inline-block;
+  width: 19%;
+  background: #e3e3e3;
+  color: #707070;
+  font-family: sans-serif;
+  margin: 5px;
+  padding: 0;
+}
+
+section > img {
+  display: block;
+  margin: 0 auto;
+}
+
+section > h2,
+section > h6,
+section > p {
+  text-align: center;
+}
+
+.active {
+  background: white;
+  color: #e3e3e3;
+  height: 210px;
+  border: 1px solid black;
+  position: absolute;
+  bottom: 7px;
+}

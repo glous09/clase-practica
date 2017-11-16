@@ -1,0 +1,35 @@
+header,
+footer {
+ background: #ff0000;
+ text-align: center;
+ padding: 10px 20px;
+}
+
+footer {
+ clear: left;
+}
+
+body {
+ margin: 0;
+}
+
+article {
+ height: 600px;
+ float: left;
+ border: 1px solid gray;
+ width: 33.1%;
+ overflow: hidden;
+}
+
+article > h3 {
+ text-align: center;
+}
+
+article > p {
+ margin: 30px;
+}
+
+article > img {
+ margin: 20px auto;
+ display: block;
+}
